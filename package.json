@@ -1,0 +1,46 @@
+{
+  "name": "snpp-client",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ben Burwell",
+    "email": "hi@benburwell.com"
+  },
+  "maintainers": [
+    {
+      "name": "Ben Burwell",
+      "email": "hi@benburwell.com",
+      "url": "http://www.benburwell.com/"
+    }
+  ],
+  "description": "A Simple Network Paging Protocol (SNPP) client for Node.js",
+  "tags": [
+    "snpp",
+    "client",
+    "paging"
+  ],
+  "keywords": [
+    "snpp",
+    "client",
+    "paging"
+  ],
+  "main": "./lib/snpp.js",
+  "scripts": {
+    "test": "mocha ./test/snpp_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benburwell/snpp-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benburwell/snpp-client/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/benburwell/snpp-client"
+}
